@@ -19,20 +19,19 @@ This repository contains a collection of AI-based search agents for the classic 
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/pacman-search-agents.git
+    git clone https://github.com/AimeCesaireM/AI-Projects/Project_01.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd pacman-search-agents
+    cd Project_01
     ```
 
-3. Install the necessary dependencies (if any):
-    ```bash
-    pip install -r requirements.txt
+3. Run the Pacman game with the desired agent. The command looks as such:
+   ```bash
+    python pacman.py -p <AgentName> -a <parameter1=value1,parameter2=value2,...>
     ```
-
-4. Run the Pacman game with the desired agent. For example:
+   For exapmple:
     ```bash
     python pacman.py -p AStarCornersAgent -a fn=depthFirstSearch
     ```
@@ -43,14 +42,3 @@ This repository contains a collection of AI-based search agents for the classic 
 - `AStarFoodSearchAgent`: An agent using A* search to collect all food dots.
 - `ClosestDotSearchAgent`: An agent using BFS to find the closest food dot and collect it.
 - `SearchAgent`: A generic agent that can be configured with different search strategies.
-
-### Example Usage
-
-To use an agent with a specific search strategy, use the following command structure:
-```bash
-python pacman.py -p <AgentName> -a <parameter1=value1,parameter2=value2,...>
-```
-For example,
-```bash
-python pacman.py -p AStarCornersAgent -a fn=cornersHeuristic
-```
