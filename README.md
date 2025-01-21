@@ -13,7 +13,7 @@ This repository showcases various experiments and implementations from my course
 ### 4. **Project_04 - Busters Beliefs AI Agents**
    This project implements agents that track and display beliefs about ghost positions in the Pacman game. It includes a greedy agent that charges the closest ghost and a keyboard-controlled agent for manual interaction.
 
-##Authors
-Aime C. Mugishawayo
-Admire T. Madyira
+### Authors
+- Aime C. Mugishawayo
+- Admire T. Madyira
 
