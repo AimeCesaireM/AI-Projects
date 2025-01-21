@@ -15,5 +15,5 @@ This repository showcases various experiments and implementations from my course
 
 ##Authors
 Aime C. Mugishawayo
-Admire T. Madyiras
+Admire T. Madyira
 
